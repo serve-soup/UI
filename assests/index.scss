@@ -153,10 +153,7 @@ footer{
     padding: 35px; 
     display: flex;
 
-    @media screen and (max-width: 620px) {
-        
-    }
-
+   
 
     div{
         padding: 0 20px;
@@ -165,6 +162,8 @@ footer{
         font-size: 1.3rem;
         text-align: center;
         width: 100%;
+
+        
        
         ul {
             list-style: none;
@@ -183,5 +182,24 @@ footer{
             height: 36px;
         }
     }
+
+
+     @media screen and (max-width: 620px) {
+         flex-direction: column;
+         width: 500px;
+         margin: 0 auto;
+         padding: 0;
+         div {
+             border: 0;
+             border-bottom: 1px solid black;
+             padding: 0;
+             ul {
+                 text-align: center;
+                 font-size: 2rem;
+                 line-height: 50px;
+             }
+         }
+     }
+
 }
 

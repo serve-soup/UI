@@ -172,5 +172,23 @@ footer span img {
     height: 36px;
   }
 }
+@media screen and (max-width: 620px) {
+  footer {
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  footer div {
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 0;
+  }
+  footer div ul {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 50px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
