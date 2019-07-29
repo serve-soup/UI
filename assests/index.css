@@ -58,13 +58,21 @@ nav a {
   }
 }
 @media screen and (max-width: 620px) {
+  nav {
+    flex-direction: column;
+    line-height: 50px;
+    text-align: center;
+  }
   nav a {
-    font-size: 1rem;
+    border-bottom: 1px solid black;
+    width: 100%;
+    align-self: center;
   }
 }
 nav a:hover {
   cursor: pointer;
   color: orange;
+  transition: 0.5s;
 }
 nav a:hover h1 {
   color: black;
@@ -72,15 +80,17 @@ nav a:hover h1 {
 nav h1 {
   margin: 0px;
   color: orange;
+  transition: 0.5s;
 }
 
 .imgBox {
   position: relative;
+  background: black;
 }
 .imgBox img {
   width: 100%;
-  opacity: 0.9;
   height: 450px;
+  opacity: 0.2;
 }
 .imgBox h1 {
   position: absolute;
@@ -89,12 +99,22 @@ nav h1 {
   color: white;
   font-size: 4rem;
 }
+@media screen and (max-width: 620px) {
+  .imgBox h1 {
+    font-size: 3rem;
+  }
+}
 .imgBox p {
   position: absolute;
   top: 150px;
   left: 50px;
   color: white;
   font-size: 2rem;
+}
+@media screen and (max-width: 620px) {
+  .imgBox p {
+    font-size: 1.5rem;
+  }
 }
 .imgBox button {
   position: absolute;

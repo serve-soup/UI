@@ -56,13 +56,24 @@ body {
             }
 
 
-            @media  screen and (max-width: 620px){
-                font-size: 1rem;
-            }
+           
         }
+        
+        
+        @media  screen and (max-width: 620px){
+                flex-direction: column;
+                line-height: 50px;
+                text-align: center;
+                a {
+                    border-bottom: 1px solid black;
+                    width: 100%;
+                    align-self: center;
+                }
+            }
         a:hover {
             cursor: pointer;
             color: orange;
+            transition: .5s;
             h1{
                 color:black;
             }
@@ -72,6 +83,7 @@ body {
         h1{
             margin: 0px;
             color: orange;
+            transition: .5s;
         }
 
     }
@@ -80,11 +92,11 @@ body {
 
     .imgBox{
         position: relative;
-
+        background: black;
         img {
         width: 100%;
-        opacity: .9;
         height: 450px;
+        opacity: .2;
     }
 
     h1 {
@@ -93,6 +105,11 @@ body {
         left: 50px;
         color: white;
         font-size: 4rem;
+
+
+        @media  screen and (max-width: 620px){
+            font-size: 3rem;
+        }
     }
     p{
         position: absolute;
@@ -100,7 +117,15 @@ body {
         left: 50px;
         color: white;
         font-size: 2rem;
+
+
+        @media  screen and (max-width: 620px) {
+            font-size: 1.5rem;
+
+        }
     }
+
+
     button{
         position: absolute;
         top: 250px;
@@ -127,6 +152,10 @@ footer{
     background: rgba(236, 154, 2, 0.74);
     padding: 35px; 
     display: flex;
+
+    @media screen and (max-width: 620px) {
+        
+    }
 
 
     div{
