@@ -36,12 +36,17 @@ body {
         margin: 0 auto
     }
 }
+
     // general nav
     nav{
         display: flex;
         justify-content: space-between;
         padding: 35px 20px;
-        background: rgba(55, 175, 223, 0.164);
+        background: rgba(55, 176, 223, 0.918);
+        position: fixed;
+        z-index: 1;
+        width: 1040px;
+        margin: 0 auto;
 
         // nav links
         a {
@@ -86,10 +91,36 @@ body {
             transition: .5s;
         }
 
+
+        @media screen and (max-width:1000px){
+
+
+            width: 910px;
+            @media screen and (max-width: 900px){
+                width: 810px;
+            }
+
+            @media screen and (max-width: 768px){
+                width: 660px;
+                padding-bottom: 45px;
+            }
+            @media screen and (max-width: 620px){
+                width: 460px;
+                position: relative;
+                
+            }
+
+        }
     }
 
     // div that contains the img, h1 and button
+    .SPACE{
+        padding:55px 0;
 
+         @media screen and (max-width: 620px){
+             display: none;
+         }
+    }
     .imgBox{
         position: relative;
         background: black;
@@ -97,6 +128,7 @@ body {
         width: 100%;
         height: 450px;
         opacity: .2;
+        
     }
 
     h1 {
