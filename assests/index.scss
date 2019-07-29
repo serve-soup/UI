@@ -6,12 +6,23 @@ html{
 body {
     width: 1080px;
     margin: 0 auto;
+
      @media screen and (max-width: 1000px){
             width: 950px;
             margin: 0 auto;
         };
         @media screen and (max-width: 900px) {
             width: 850px;
+            margin: 0 auto;
+        }
+
+        @media screen and (max-width: 768px ){
+            width: 700px;
+            margin: 0 auto;
+        }
+
+        @media screen and (max-width: 620px) {
+            width: 500px;
             margin: 0 auto;
         }
     
@@ -38,6 +49,16 @@ body {
             font-size: 2rem;
             color: black;
             font-weight: bold;
+
+
+            @media screen and (max-width: 768px) {
+                font-size: 1.5rem;
+            }
+
+
+            @media  screen and (max-width: 620px){
+                font-size: 1rem;
+            }
         }
         a:hover {
             cursor: pointer;
@@ -109,21 +130,29 @@ footer{
 
 
     div{
-        padding: 0 15px;
+        padding: 0 20px;
         border-left: 1px solid rgba(255, 255, 0, 0.40);
         border-right: 1px solid rgba(255, 255, 0, 0.40);
         font-size: 1.3rem;
         text-align: center;
         width: 100%;
+       
         ul {
             list-style: none;
             text-align: left;
             line-height: 30px;
             font-size: 1.3rem;
+            padding: 15px 0;
+            @media screen and (max-width: 768px) {
+                font-size: 1.08rem;
+            }
         }
     }
     span img{
         height: 50px;
+        @media screen and (max-width: 768px) {
+            height: 36px;
+        }
     }
 }
 
