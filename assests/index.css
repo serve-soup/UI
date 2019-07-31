@@ -2,6 +2,8 @@ html {
   font-size: 65.5%;
   font-family: "Roboto Slab", serif;
   background: #73738834;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 body {
@@ -280,6 +282,11 @@ nav h1 {
   .imgBox button:hover {
     top: 240px;
   }
+}
+
+.Team div {
+  text-align: center;
+  font-size: 3rem;
 }
 
 .top {
