@@ -227,6 +227,7 @@ nav {
 
 // top section 
 .top {
+    margin-top: 50px;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
@@ -248,14 +249,16 @@ nav {
     }
 
     .middle-part {
+        margin-top: 50px;
         display: flex;
         .stats{
             height: 262px;
         }
-        background: #e9e9e9;
+        background: #e9e9e9c0;
          img {
             width: 250px;
             height: 262px;
+            opacity: .7;
             
 
         }
@@ -265,12 +268,29 @@ nav {
             color: orange;
         }
     }
+    .logo2{
+        display: flex;
+        background: rgba(255, 255, 255, 0.70);
+        font-size: 1.5rem;
+        img{
+            width: 400px;
+            opacity: .7;
+        }
+    }
 
 
 
 
 }
 
+// bottom section
+
+.bottom{
+   .topBottom {
+       font-size: 2rem;
+       text-align: center;
+   }
+}
 
 
 
@@ -279,6 +299,7 @@ nav {
 
 // end of img div
 footer {
+    margin-top: 50px;
     background: rgba(236, 154, 2, 0.74);
     padding: 35px;
     display: flex;
