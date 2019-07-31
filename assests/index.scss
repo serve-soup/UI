@@ -438,6 +438,10 @@ footer {
             line-height: 30px;
             font-size: 1.3rem;
             padding: 15px 0;
+            a{
+                text-decoration: none;
+                color: black;
+            }
 
             @media screen and (max-width: 768px) {
                 font-size: 1.08rem;
@@ -473,8 +477,16 @@ footer {
                 text-align: center;
                 font-size: 2rem;
                 line-height: 50px;
+               
+                
             }
         }
     }
 
 }
+
+
+// about page
+
+
+
