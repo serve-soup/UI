@@ -2,7 +2,7 @@ html {
     font-size: 65.5%;
     font-family: 'Roboto Slab',
         serif;
-    background: rgba(115, 115, 136, 0.699);
+    background: #73738834;
 }
 
 body {
@@ -188,8 +188,68 @@ nav {
         font-size: 4rem;
 
 
+
         @media screen and (max-width: 650px) {
             font-size: 3rem;
+        }
+    }
+
+    // about us page
+    .About {
+        font-size: 10rem;
+        left: 250px;
+
+
+        @media screen and (max-width: 850px) {
+            font-size: 5rem;
+        }
+
+        @media screen and (max-width: 650px) {
+
+            left: 150px;
+
+        }
+
+        @media screen and (max-width:420px) {
+            font-size: 3rem;
+            left: 90px;
+        }
+
+
+    }
+
+    .About-p {
+        font-size: 2.5rem;
+        top: 240px;
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 30px;
+
+        @media screen and (max-width: 1030px) {
+            font-size: 2.5rem;
+            margin-left: 90px;
+
+            @media screen and (max-width: 900px) {
+                font-size: 2.3rem;
+
+                @media screen and (max-width: 850px) {
+                    font-size: 2rem;
+                    margin-left: 50px;
+                    top: 160px;
+
+                    @media screen and (max-width: 650px) {
+                        margin-left: 30px;
+
+                        @media screen and (max-width:420px) {
+                            font-size: 1.5rem;
+                            left: 20px;
+                        }
+
+
+                    }
+                }
+
+            }
         }
     }
 
@@ -438,7 +498,8 @@ footer {
             line-height: 30px;
             font-size: 1.3rem;
             padding: 15px 0;
-            a{
+
+            a {
                 text-decoration: none;
                 color: black;
             }
@@ -477,8 +538,8 @@ footer {
                 text-align: center;
                 font-size: 2rem;
                 line-height: 50px;
-               
-                
+
+
             }
         }
     }
@@ -487,6 +548,3 @@ footer {
 
 
 // about page
-
-
-

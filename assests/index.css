@@ -1,7 +1,7 @@
 html {
   font-size: 65.5%;
   font-family: "Roboto Slab", serif;
-  background: rgba(115, 115, 136, 0.699);
+  background: #73738834;
 }
 
 body {
@@ -179,6 +179,62 @@ nav h1 {
 @media screen and (max-width: 650px) {
   .imgBox h1 {
     font-size: 3rem;
+  }
+}
+.imgBox .About {
+  font-size: 10rem;
+  left: 250px;
+}
+@media screen and (max-width: 850px) {
+  .imgBox .About {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .imgBox .About {
+    left: 150px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .imgBox .About {
+    font-size: 3rem;
+    left: 90px;
+  }
+}
+.imgBox .About-p {
+  font-size: 2.5rem;
+  top: 240px;
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 30px;
+}
+@media screen and (max-width: 1030px) {
+  .imgBox .About-p {
+    font-size: 2.5rem;
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 1030px) and (max-width: 900px) {
+  .imgBox .About-p {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 1030px) and (max-width: 900px) and (max-width: 850px) {
+  .imgBox .About-p {
+    font-size: 2rem;
+    margin-left: 50px;
+    top: 160px;
+  }
+}
+@media screen and (max-width: 1030px) and (max-width: 900px) and (max-width: 850px) and (max-width: 650px) {
+  .imgBox .About-p {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1030px) and (max-width: 900px) and (max-width: 850px) and (max-width: 650px) and (max-width: 420px) {
+  .imgBox .About-p {
+    font-size: 1.5rem;
+    left: 20px;
   }
 }
 .imgBox p {
