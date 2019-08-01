@@ -306,11 +306,93 @@ nav {
 
 // meet the team section
 
-.Team{
-    div{
+.Team {
+    div {
         text-align: center;
         font-size: 3rem;
     }
+
+
+    // team pictures
+    .TeamProf {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 2rem;
+            margin-top: 50px
+        }
+
+
+
+        img {
+            width: 100px;
+            border: 6px solid white;
+            border-radius: 50%;
+            position: absolute;
+            left: 40px;
+            top: -60px;
+
+        }
+
+        .one {
+            left: 20px
+        }
+
+        .two {
+            left: 30px
+        }
+
+        .three {
+            left: 60px;
+        }
+
+        .four {
+            left: 50px;
+        }
+
+        i img {
+            position: absolute;
+            width: 50px;
+            top: 100px;
+            left: 10px;
+
+        }
+
+        i .icon {
+            position: absolute;
+            width: 50px;
+            top: 100px;
+            left: 90px;
+        }
+
+        i .icon2 {
+            position: absolute;
+            width: 50px;
+            top: 100px;
+            left: 140px;
+        }
+        i .icon3 {
+            left: 40px
+        }
+
+        div {
+            margin: 0 10px;
+            padding: 0 20px;
+            background: rgba(255, 255, 255, 0.473);
+            border-top: 4px solid rgb(60, 218, 60);
+            position: relative;
+            height: 200px;
+        }
+        div:nth-child(1){
+            width: 120px;
+        }
+
+
+    }
+
+
+
 }
 
 // top section 
@@ -558,4 +640,3 @@ footer {
     }
 
 }
-

@@ -288,6 +288,66 @@ nav h1 {
   text-align: center;
   font-size: 3rem;
 }
+.Team .TeamProf {
+  display: flex;
+  justify-content: space-between;
+}
+.Team .TeamProf h1 {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+.Team .TeamProf img {
+  width: 100px;
+  border: 6px solid white;
+  border-radius: 50%;
+  position: absolute;
+  left: 40px;
+  top: -60px;
+}
+.Team .TeamProf .one {
+  left: 20px;
+}
+.Team .TeamProf .two {
+  left: 30px;
+}
+.Team .TeamProf .three {
+  left: 60px;
+}
+.Team .TeamProf .four {
+  left: 50px;
+}
+.Team .TeamProf i img {
+  position: absolute;
+  width: 50px;
+  top: 100px;
+  left: 10px;
+}
+.Team .TeamProf i .icon {
+  position: absolute;
+  width: 50px;
+  top: 100px;
+  left: 90px;
+}
+.Team .TeamProf i .icon2 {
+  position: absolute;
+  width: 50px;
+  top: 100px;
+  left: 140px;
+}
+.Team .TeamProf i .icon3 {
+  left: 40px;
+}
+.Team .TeamProf div {
+  margin: 0 10px;
+  padding: 0 20px;
+  background: rgba(255, 255, 255, 0.473);
+  border-top: 4px solid #3cda3c;
+  position: relative;
+  height: 200px;
+}
+.Team .TeamProf div:nth-child(1) {
+  width: 120px;
+}
 
 .top {
   margin-top: 50px;
