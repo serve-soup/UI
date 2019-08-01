@@ -175,6 +175,7 @@ nav {
 .imgBox {
     position: relative;
     background: black;
+    box-shadow: 0px 0px 100px black;
 
     img {
         width: 100%;
@@ -310,6 +311,7 @@ nav {
     div {
         text-align: center;
         font-size: 3rem;
+        box-shadow: 0px 0px 100px black;
     }
 
 
@@ -317,19 +319,41 @@ nav {
     .TeamProf {
         display: flex;
         justify-content: space-between;
+
+        div {
+            width: 150px;
+            box-shadow: 0px 15px 40px black;
+
+            @media screen and (max-width:850px) {
+                width: 640px;
+
+                h1 {
+                    font-size: 3rem;
+                }
+
+                @media screen and (max-width: 650px) {
+                    width: 440px;
+
+                    @media screen and (max-width: 450px) {
+                        width: 260px;
+                    }
+                }
+            }
+        }
+
         @media screen and (max-width: 850px) {
             flex-direction: column;
-            
+
         }
 
         @media screen and (max-width:650px) {
             display: flex;
             flex-direction: column;
         }
-        
+
 
         h1 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             margin-top: 50px
         }
 
@@ -342,19 +366,28 @@ nav {
             position: absolute;
             left: 40px;
             top: -60px;
-            
+
 
         }
-// pictures
+
+        // pictures
         .one {
-            left: 20px;
+            left: 35px;
+
             @media screen and (max-width: 1030px) {
-                left: 10px;
+                left: 25px;
             }
+
+            @media screen and (max-width:900px) {
+                left: 20px
+            }
+
             @media screen and (max-width:850px) {
-                left: 300px;
+                left: 285px;
+
                 @media screen and (max-width:650px) {
                     left: 180px;
+
                     @media screen and (max-width: 450px) {
                         left: 100px;
                     }
@@ -363,64 +396,79 @@ nav {
         }
 
         .two {
-            left: 30px;
-             @media screen and (max-width: 1030px) {
-                 left: 10px;
-             }
+            left: 35px;
+
+            @media screen and (max-width: 1030px) {
+                left: 20px;
+            }
+
             @media screen and (max-width:850px) {
-                left: 300px;
-                 @media screen and (max-width:650px) {
-                     left: 180px;
-                     @media screen and (max-width: 450px) {
-                         left: 100px;
-                     }
-                 }
+                left: 285px;
+
+                @media screen and (max-width:650px) {
+                    left: 180px;
+
+                    @media screen and (max-width: 450px) {
+                        left: 100px;
+                    }
+                }
             }
 
         }
 
         .three {
-            left: 60px;
+            left: 40px;
+
             @media screen and (max-width: 1030px) {
-                left: 40px;
-                
+                left: 25px;
+
             }
+
             @media screen and (max-width:850px) {
-                left: 300px;
-                 @media screen and (max-width:650px) {
-                     left: 180px;
-                     @media screen and (max-width: 450px) {
-                         left: 100px;
-                     }
-                 }
+                left: 285px;
+
+                @media screen and (max-width:650px) {
+                    left: 180px;
+
+                    @media screen and (max-width: 450px) {
+                        left: 100px;
+                    }
+                }
             }
         }
 
         .four {
-            left: 50px;
+            left: 40px;
+
             @media screen and (max-width: 1030px) {
                 left: 30px;
             }
+
             @media screen and (max-width:850px) {
-                left: 300px;
-                 @media screen and (max-width:650px) {
-                     left: 180px;
-                     @media screen and (max-width: 450px) {
-                         left: 100px;
-                     }
-                 }
+                left: 285px;
+
+                @media screen and (max-width:650px) {
+                    left: 180px;
+
+                    @media screen and (max-width: 450px) {
+                        left: 100px;
+                    }
+                }
             }
         }
 
-        .five{
-            left: 50px;
+        .five {
+            left: 40px;
+
             @media screen and (max-width: 1030px) {
-                left: 30px;
+                left: 25px;
+
                 @media screen and (max-width:850px) {
-                    left: 300px;
+                    left: 285px;
 
                     @media screen and (max-width:650px) {
                         left: 180px;
+
                         @media screen and (max-width: 450px) {
                             left: 100px;
                         }
@@ -433,37 +481,55 @@ nav {
             position: absolute;
             width: 50px;
             top: 100px;
-            left: 10px;
+            left: 15px;
+
             @media screen and (max-width: 1030px) {
                 width: 40px;
-                
+
             }
 
             @media screen and (max-width:850px) {
                 width: 100px;
                 top: 80px;
+
+                @media screen and (max-width: 450px) {
+                    width: 65px;
+                    top: 123px;
+                }
             }
 
         }
-// icons
+
+        // icons
         i .icon {
             position: absolute;
             width: 50px;
             top: 100px;
-            left: 90px;
+            left: 100px;
+
             @media screen and (max-width: 1030px) {
-                left: 70px;
+                left: 100px;
                 width: 40px;
             }
 
-            @me
-            @media screen and (max-width: 900px){
-                left: 80px
+            @media screen and (max-width: 900px) {
+                left: 90px
             }
+
             @media screen and (max-width:850px) {
                 width: 100px;
                 top: 80px;
-                left: 180px;
+                left: 550px;
+            }
+
+            @media screen and (max-width:650px) {
+                left: 355px;
+
+                @media screen and (max-width: 450px) {
+                    width: 65px;
+                    left: 220px;
+                    top: 123px;
+                }
             }
         }
 
@@ -471,43 +537,74 @@ nav {
             position: absolute;
             width: 50px;
             top: 100px;
-            left: 140px;
+            left: 110px;
+
             @media screen and (max-width: 1030px) {
-                left: 120px;
+                left: 90px;
                 width: 40px;
             }
 
             @media screen and (max-width:850px) {
                 width: 100px;
-                left: 180px;
+                left: 550px;
                 top: 80px;
+
+                @media screen and (max-width:650px) {
+                    left: 355px;
+
+                    @media screen and (max-width: 450px) {
+                        width: 65px;
+                        left: 220px;
+                        top: 123px;
+                    }
+                }
             }
-            
+
         }
+
         @media screen and (max-width: 1030px) {
             i .iconTwo {
                 left: 100px;
+
+                @media screen and (max-width: 900px) {
+                    left: 90px;
+                }
             }
         }
+
         @media screen and (max-width:850px) {
-           i .iconTwo {
-                left: 180px;
+            i .iconTwo {
+                left: 550px;
+
+                @media screen and (max-width:650px) {
+                    left: 355px;
+
+                    @media screen and (max-width: 450px) {
+                        width: 65px;
+                        left: 220px;
+                        top: 123px;
+                    }
+                }
             }
         }
 
         i .icon3 {
-            left: 40px;
-            
+            left: 20px;
+
 
             @media screen and (max-width:850px) {
                 width: 100px;
                 left: 10px;
                 top: 80px;
+
+                @media screen and (max-width: 450px) {
+                    width: 65px;
+                    top: 123px;
+                }
             }
         }
-        div:nth-child(1) {
-            width: 120px;
-        }
+
+
 
         div {
             margin: 0 10px;
@@ -516,33 +613,38 @@ nav {
             border-top: 4px solid rgb(60, 218, 60);
             position: relative;
             height: 200px;
+
             @media screen and (max-width: 850px) {
                 margin-top: 50px;
-                
+
 
             }
+
             @media screen and (max-width:650px) {
                 margin-bottom: 20px;
             }
         }
+
         @media screen and (max-width:850px) {
             div:nth-child(1) {
                 width: 640px;
             }
         }
-        
+
         @media screen and (max-width:650px) {
             div:nth-child(1) {
                 width: 440px;
             }
         }
+
         @media screen and (max-width:450px) {
             div:nth-child(1) {
                 width: 260px;
             }
         }
 
-        
+
+
 
 
     }
@@ -559,10 +661,12 @@ nav {
     flex-direction: column;
 
 
+
     .top-part {
         background: rgba(182, 182, 202, 0.356);
         display: flex;
         padding-top: 32px;
+        box-shadow: 0px 0px 100px black;
 
         @media screen and (max-width:650px) {
             flex-direction: column;
@@ -601,6 +705,7 @@ nav {
         display: flex;
         justify-content: space-between;
         padding-left: 10px;
+        box-shadow: 0px 0px 100px black;
 
         @media screen and (max-width: 650px) {
             flex-direction: column;
@@ -634,6 +739,7 @@ nav {
 
     .powerIss {
         padding-left: 10px;
+        box-shadow: 0px 0px 100px black;
 
         p {
 
@@ -645,6 +751,7 @@ nav {
         display: flex;
         background: rgba(255, 255, 255, 0.623);
         font-size: 1.5rem;
+        box-shadow: 0px 0px 100px black;
 
         @media screen and (max-width: 650px) {
             flex-direction: column;
