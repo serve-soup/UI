@@ -317,6 +317,16 @@ nav {
     .TeamProf {
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width: 850px) {
+            flex-direction: column;
+            
+        }
+
+        @media screen and (max-width:650px) {
+            display: flex;
+            flex-direction: column;
+        }
+        
 
         h1 {
             font-size: 2rem;
@@ -332,23 +342,91 @@ nav {
             position: absolute;
             left: 40px;
             top: -60px;
+            
 
         }
-
+// pictures
         .one {
-            left: 20px
+            left: 20px;
+            @media screen and (max-width: 1030px) {
+                left: 10px;
+            }
+            @media screen and (max-width:850px) {
+                left: 300px;
+                @media screen and (max-width:650px) {
+                    left: 180px;
+                    @media screen and (max-width: 450px) {
+                        left: 100px;
+                    }
+                }
+            }
         }
 
         .two {
-            left: 30px
+            left: 30px;
+             @media screen and (max-width: 1030px) {
+                 left: 10px;
+             }
+            @media screen and (max-width:850px) {
+                left: 300px;
+                 @media screen and (max-width:650px) {
+                     left: 180px;
+                     @media screen and (max-width: 450px) {
+                         left: 100px;
+                     }
+                 }
+            }
+
         }
 
         .three {
             left: 60px;
+            @media screen and (max-width: 1030px) {
+                left: 40px;
+                
+            }
+            @media screen and (max-width:850px) {
+                left: 300px;
+                 @media screen and (max-width:650px) {
+                     left: 180px;
+                     @media screen and (max-width: 450px) {
+                         left: 100px;
+                     }
+                 }
+            }
         }
 
         .four {
             left: 50px;
+            @media screen and (max-width: 1030px) {
+                left: 30px;
+            }
+            @media screen and (max-width:850px) {
+                left: 300px;
+                 @media screen and (max-width:650px) {
+                     left: 180px;
+                     @media screen and (max-width: 450px) {
+                         left: 100px;
+                     }
+                 }
+            }
+        }
+
+        .five{
+            left: 50px;
+            @media screen and (max-width: 1030px) {
+                left: 30px;
+                @media screen and (max-width:850px) {
+                    left: 300px;
+
+                    @media screen and (max-width:650px) {
+                        left: 180px;
+                        @media screen and (max-width: 450px) {
+                            left: 100px;
+                        }
+                    }
+                }
+            }
         }
 
         i img {
@@ -356,14 +434,37 @@ nav {
             width: 50px;
             top: 100px;
             left: 10px;
+            @media screen and (max-width: 1030px) {
+                width: 40px;
+                
+            }
+
+            @media screen and (max-width:850px) {
+                width: 100px;
+                top: 80px;
+            }
 
         }
-
+// icons
         i .icon {
             position: absolute;
             width: 50px;
             top: 100px;
             left: 90px;
+            @media screen and (max-width: 1030px) {
+                left: 70px;
+                width: 40px;
+            }
+
+            @me
+            @media screen and (max-width: 900px){
+                left: 80px
+            }
+            @media screen and (max-width:850px) {
+                width: 100px;
+                top: 80px;
+                left: 180px;
+            }
         }
 
         i .icon2 {
@@ -371,22 +472,77 @@ nav {
             width: 50px;
             top: 100px;
             left: 140px;
+            @media screen and (max-width: 1030px) {
+                left: 120px;
+                width: 40px;
+            }
+
+            @media screen and (max-width:850px) {
+                width: 100px;
+                left: 180px;
+                top: 80px;
+            }
+            
         }
+        @media screen and (max-width: 1030px) {
+            i .iconTwo {
+                left: 100px;
+            }
+        }
+        @media screen and (max-width:850px) {
+           i .iconTwo {
+                left: 180px;
+            }
+        }
+
         i .icon3 {
-            left: 40px
+            left: 40px;
+            
+
+            @media screen and (max-width:850px) {
+                width: 100px;
+                left: 10px;
+                top: 80px;
+            }
+        }
+        div:nth-child(1) {
+            width: 120px;
         }
 
         div {
             margin: 0 10px;
             padding: 0 20px;
-            background: rgba(255, 255, 255, 0.473);
+            background: rgba(255, 255, 255, 0.623);
             border-top: 4px solid rgb(60, 218, 60);
             position: relative;
             height: 200px;
+            @media screen and (max-width: 850px) {
+                margin-top: 50px;
+                
+
+            }
+            @media screen and (max-width:650px) {
+                margin-bottom: 20px;
+            }
         }
-        div:nth-child(1){
-            width: 120px;
+        @media screen and (max-width:850px) {
+            div:nth-child(1) {
+                width: 640px;
+            }
         }
+        
+        @media screen and (max-width:650px) {
+            div:nth-child(1) {
+                width: 440px;
+            }
+        }
+        @media screen and (max-width:450px) {
+            div:nth-child(1) {
+                width: 260px;
+            }
+        }
+
+        
 
 
     }

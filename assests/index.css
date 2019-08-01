@@ -292,6 +292,17 @@ nav h1 {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 850px) {
+  .Team .TeamProf {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Team .TeamProf {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .Team .TeamProf h1 {
   font-size: 2rem;
   margin-top: 50px;
@@ -307,14 +318,117 @@ nav h1 {
 .Team .TeamProf .one {
   left: 20px;
 }
+@media screen and (max-width: 1030px) {
+  .Team .TeamProf .one {
+    left: 10px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Team .TeamProf .one {
+    left: 300px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 650px) {
+  .Team .TeamProf .one {
+    left: 180px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 650px) and (max-width: 450px) {
+  .Team .TeamProf .one {
+    left: 100px;
+  }
+}
 .Team .TeamProf .two {
   left: 30px;
+}
+@media screen and (max-width: 1030px) {
+  .Team .TeamProf .two {
+    left: 10px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Team .TeamProf .two {
+    left: 300px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 650px) {
+  .Team .TeamProf .two {
+    left: 180px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 650px) and (max-width: 450px) {
+  .Team .TeamProf .two {
+    left: 100px;
+  }
 }
 .Team .TeamProf .three {
   left: 60px;
 }
+@media screen and (max-width: 1030px) {
+  .Team .TeamProf .three {
+    left: 40px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Team .TeamProf .three {
+    left: 300px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 650px) {
+  .Team .TeamProf .three {
+    left: 180px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 650px) and (max-width: 450px) {
+  .Team .TeamProf .three {
+    left: 100px;
+  }
+}
 .Team .TeamProf .four {
   left: 50px;
+}
+@media screen and (max-width: 1030px) {
+  .Team .TeamProf .four {
+    left: 30px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Team .TeamProf .four {
+    left: 300px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 650px) {
+  .Team .TeamProf .four {
+    left: 180px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 650px) and (max-width: 450px) {
+  .Team .TeamProf .four {
+    left: 100px;
+  }
+}
+.Team .TeamProf .five {
+  left: 50px;
+}
+@media screen and (max-width: 1030px) {
+  .Team .TeamProf .five {
+    left: 30px;
+  }
+}
+@media screen and (max-width: 1030px) and (max-width: 850px) {
+  .Team .TeamProf .five {
+    left: 300px;
+  }
+}
+@media screen and (max-width: 1030px) and (max-width: 850px) and (max-width: 650px) {
+  .Team .TeamProf .five {
+    left: 180px;
+  }
+}
+@media screen and (max-width: 1030px) and (max-width: 850px) and (max-width: 650px) and (max-width: 450px) {
+  .Team .TeamProf .five {
+    left: 100px;
+  }
 }
 .Team .TeamProf i img {
   position: absolute;
@@ -322,11 +436,40 @@ nav h1 {
   top: 100px;
   left: 10px;
 }
+@media screen and (max-width: 1030px) {
+  .Team .TeamProf i img {
+    width: 40px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Team .TeamProf i img {
+    width: 100px;
+    top: 80px;
+  }
+}
 .Team .TeamProf i .icon {
   position: absolute;
   width: 50px;
   top: 100px;
   left: 90px;
+}
+@media screen and (max-width: 1030px) {
+  .Team .TeamProf i .icon {
+    left: 70px;
+    width: 40px;
+  }
+}
+@me @media screen and (max-width: 900px) {
+  .Team .TeamProf i .icon {
+    left: 80px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Team .TeamProf i .icon {
+    width: 100px;
+    top: 80px;
+    left: 180px;
+  }
 }
 .Team .TeamProf i .icon2 {
   position: absolute;
@@ -334,19 +477,74 @@ nav h1 {
   top: 100px;
   left: 140px;
 }
+@media screen and (max-width: 1030px) {
+  .Team .TeamProf i .icon2 {
+    left: 120px;
+    width: 40px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Team .TeamProf i .icon2 {
+    width: 100px;
+    left: 180px;
+    top: 80px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .Team .TeamProf i .iconTwo {
+    left: 100px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Team .TeamProf i .iconTwo {
+    left: 180px;
+  }
+}
 .Team .TeamProf i .icon3 {
   left: 40px;
+}
+@media screen and (max-width: 850px) {
+  .Team .TeamProf i .icon3 {
+    width: 100px;
+    left: 10px;
+    top: 80px;
+  }
+}
+.Team .TeamProf div:nth-child(1) {
+  width: 120px;
 }
 .Team .TeamProf div {
   margin: 0 10px;
   padding: 0 20px;
-  background: rgba(255, 255, 255, 0.473);
+  background: rgba(255, 255, 255, 0.623);
   border-top: 4px solid #3cda3c;
   position: relative;
   height: 200px;
 }
-.Team .TeamProf div:nth-child(1) {
-  width: 120px;
+@media screen and (max-width: 850px) {
+  .Team .TeamProf div {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Team .TeamProf div {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Team .TeamProf div:nth-child(1) {
+    width: 640px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Team .TeamProf div:nth-child(1) {
+    width: 440px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .Team .TeamProf div:nth-child(1) {
+    width: 260px;
+  }
 }
 
 .top {
